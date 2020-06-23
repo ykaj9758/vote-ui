@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM registry.redhat.io/ubi7/python-38
+FROM registry.access.redhat.com/ubi7/python-38
 
 # Set the application directory
 WORKDIR /app
