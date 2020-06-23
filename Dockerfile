@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM python:3.7-alpine
+FROM ubi7/python-38
 
 # Set the application directory
 WORKDIR /app
